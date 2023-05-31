@@ -282,7 +282,7 @@
         }
 
         //d3.csv("https://raw.githubusercontent.com/e-/infovis/main/iris.csv")
-        d3.csv("http://localhost:8080/data/지역별_월별_거래량_2021.csv")
+        d3.csv("data/지역별_월별_거래량_2021.csv")
             .then(csvData => {
                 csvData.forEach(d => {
                     d["202101"] = +d["202101"];
